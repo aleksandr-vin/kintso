@@ -1,0 +1,19 @@
+{application, kintso,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { kintso_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    lager,
+    mnesia
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
